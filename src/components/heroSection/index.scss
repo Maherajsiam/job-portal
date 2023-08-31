@@ -1,0 +1,34 @@
+.heroSection {
+    height: 80vh;
+    background-image: url('../../image/pexels-david-lin-17046388.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 40px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    p{
+        color: white;
+        background: #8f00ff;
+        font-size: 18px;
+        text-transform: capitalize;
+        padding: 12px;
+        border-radius: 4px;
+        margin-left: 93px;
+    }
+
+    h2 {
+        color: aliceblue;
+        font-size: 48px;
+        text-transform: capitalize;
+        margin-left: 93px;
+
+        span {
+            color: aliceblue;
+            text-decoration: underline;
+            font-size: 48px;
+        }
+    }
+}

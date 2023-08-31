@@ -1,12 +1,12 @@
 import React, {Fragment} from 'react';
 import Navbar from './components/navbar/';
-import SearchBox from './components/searchBox'
+import HeroSection from './components/heroSection'
 
 const App = () => {
   return (
     <Fragment>
      <Navbar />
-    <SearchBox />
+     <HeroSection />
     </Fragment>
   )
 }
